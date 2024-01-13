@@ -1,0 +1,138 @@
+.containerFeedback {
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapperFeedback {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient(183deg, var(--gradient-color1) -8.57%, var(--gradient-color2) 82.96%);
+    border-radius: 24px;
+}
+
+.titleFeedback h2 {
+    font-size: 36px;
+    color: var(--white-color);
+  }
+
+.dividerWhite {
+    width: 56px;
+    height: 2px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+}
+
+.pointOutside {
+    position: absolute;
+    bottom: 20%;
+    left: 11%;
+}
+
+.pointInside {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    left: 91%;
+    z-index: 2;
+}
+
+.feedbackList {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circleClip {
+    width: 133px;
+    height: 133px;
+    border: 5px solid var(--white-color);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.customerPhoto {
+    z-index: -1;
+    border-radius: 50%; 
+    width: 133px;
+    height: 133px;
+}
+
+.name {
+    width: 45%;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 700;
+    color: var(--white-color);
+    padding-left: 5%;
+}
+  
+.subtitle {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 200;
+    
+}
+
+.customerWrapper {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.comment {
+    font-size: 19px;
+    text-align: left;
+    font-weight: 200;
+    color: var(--white-color);
+    width: 55%;
+}
+
+.feedbackButton {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+.activeButton {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--blue-color);
+}
+
+.inactiveButton {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--light-blue-color);
+}
+
+.inactive img {
+    opacity: 0.3;
+}
+
+.active img {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+}
