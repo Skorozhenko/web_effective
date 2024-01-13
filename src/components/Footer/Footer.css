@@ -1,0 +1,110 @@
+footer { 
+    background: linear-gradient(183deg, var(--gradient-color1) -8.57%, var(--gradient-color2) 82.96%);
+    width: 100%;
+    color: var(--white-color);
+    margin-top: 10%;
+}
+
+.pointFooter2 { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.pointFooter  {
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+    bottom: 85%;
+}
+
+.wrapperFooter  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footerText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign { 
+    display: flex;
+    align-items: center;
+}
+
+.siteIcon { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+}
+
+.siteIcon div  {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--blue-color)
+}
+
+.healthCare  {
+    margin-left: 8px;
+    font-size:24px;
+    font-weight: 700;
+}
+
+.description { 
+    font-weight: 100;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.infoFooter {
+    font-weight: 100;
+    margin-top: 3%;
+    text-align: left;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.healthCare h2  {
+    font-size: 24px;
+    color: var(--white-color)
+}
+
+.categories { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+ul li { 
+    text-align: left;
+    padding-bottom: 10%;
+    list-style-type: none;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.innerWrapper { 
+    width: 60%;
+    display: flex; 
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+h3 { 
+    font-size: 20px;
+}
