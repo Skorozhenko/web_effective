@@ -1,0 +1,57 @@
+.pageName {
+    color: var(--page-name-color);
+    font-size: 24px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.circle {
+    display: flex;
+    width: 41px;
+    height: 41px;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle text {
+    font-size: 26px;
+    color: var(--white-color);
+}
+
+.navUl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+}
+
+nav li {
+    height: 1px;
+    padding-right: 40px;
+}
+
+nav li a {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--grey-color);
+}
+
+.chosen a {
+    color: var(--page-name-color);
+    font-weight: bold;
+}
